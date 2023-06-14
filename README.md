@@ -1,16 +1,53 @@
-# topla_maca
+# Topla-maca <a href="https://github.com/hesty/topla-maca/raw/main/apk/app-release.apk" target="_blank"><img src="https://github.com/hesty/password-cracker-game/assets/61988280/b4595d7d-cc4e-4279-b837-46908e85cf6b" align =right width = 360px height = 100 ></img></a>
 
-A new Flutter project.
+A simple game for YMH459 lesson
 
-## Getting Started
+# Topla-maca
 
-This project is a starting point for a Flutter application.
+<table>
+  <tr>
+    <td><img src="https://github.com/hesty/topla-maca/assets/61988280/c8c5b804-f410-4e53-95ed-9699c78bf2b7"  alt="iOS" width = 360px height = 720 ><div align=center>iOS</div></td>
+    <td><img src="https://github.com/hesty/topla-maca/assets/61988280/1ac384c4-890e-4723-9716-71d246b8334f)" alt="android" width = 360px height = 720><div align=center>Android</div></td>
+   </tr> 
+</table>
 
-A few resources to get you started if this is your first Flutter project:
+## Run App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the repo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  git clone https://github.com/hesty/topla-maca.git
+```
+
+Go to the project directory
+
+```bash
+  cd topla-maca
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Run simulator or emulator
+
+- IOS
+```bash
+  open -a simulator 
+```
+- Android
+
+```bash
+  emulator -list-avds
+  emulator @{AVD NAME}
+```
+
+Run the app
+
+```bash
+  flutter run
+```
+  
+
