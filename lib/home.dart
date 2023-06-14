@@ -148,7 +148,7 @@ class _HomeViewState extends State<HomeView> {
   }
 
   void checkAnswer() {
-    if (_isAllFieldsFilled()) {
+    if (_isAllCellFilled()) {
       if (_isAnswerCorrect()) {
         _showDialog(
           title: 'Tebrikler',
@@ -168,7 +168,7 @@ class _HomeViewState extends State<HomeView> {
     }
   }
 
-  bool _isAllFieldsFilled() {
+  bool _isAllCellFilled() {
     var filedCellCount = 0;
 
     for (int i = 0; i < 30; i++) {
